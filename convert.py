@@ -82,6 +82,8 @@ for i in range(Ntypes):
 #A counter for the total number of particles written per type
 PartsWritten = np.zeros(Ntypes, dtype=np.uint64)
 
+print("We have", Nfiles, "files")
+
 #Loop over all the files
 for k in range(Nfiles):
     fname = base_filename + "." + str(k)
